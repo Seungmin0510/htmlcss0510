@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition 샘플</title>
+    <style>
+        .box{
+            background: purple;
+            width:300px;
+            height: 30px;
+            text-align: center;
+            color: white;
+        }
+        .box:hover{
+            background: palevioletred;
+            transition: all 1s;
+
+        }
+        .box:hover span{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"><span>hel</span>lo <!--span 의미 없음-->
+    </div>
+    <!--1초 소요 되게-->
+</body>
+</html>
